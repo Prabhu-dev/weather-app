@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;1,100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Rubik+Wet+Paint&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  background-color: blanchedalmond;
+  padding: 15px;
+  border: 5px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: white;
+  padding: 10px;
+  column-gap: 30px;
+}
+
+.weather-container {
+  padding: 10px;
+}
+
+.search-input{
+  border: none;
+  height: auto;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  color: gray;
+  font-style: normal;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-icon{
+  background-color: white;
+}
+
+.search-icon img{
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.temp-icon,
+.temp,
+.city,
+.country {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h2,h4,.lat-span, .long-span {
+  color: red;
+}
+
+h1 {
+  color: grey;
+}
+
+.cords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  column-gap: 25px;
+  color: grey;
+  font-weight: bolder;
+}
+
+.humidity-container {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  padding: 5px;
+  column-gap: 90px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.humidity-value, .wind-speed, .footer-text {
+  color: grey;
+}
+
+.humidity img {
+  width: 50px;
+  height: auto;
+}
+
+.copy {
+  background-color: white;
+}
+
+.copywright {
+  text-align: center;
+  color: red;
+}
+
+.loading, .cityNotFound, .error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+}
