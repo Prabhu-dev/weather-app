@@ -34,11 +34,11 @@ const manifestForPlugin = {
       purpose:'any maskable',
     }
   ],
-  theme_color:'#181818',
-  background_color:'#e0cc3b',
+  theme_color:'#1febcd',
+  background_color:'#ffebcd',
   display:"standalone",
   scope:'/',
-  start_url:"/",
+  start_url:"/weather-app",
   orientation:'portrait'
   },
 };
